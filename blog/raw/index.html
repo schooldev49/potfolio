@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>replit</title>
+  <link href="../../style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<h1 style='color: white; padding-left: 5px; margin-left: 10px;'>blog post</h1>
+  <br>
+ <div class='flex content' style='padding-top: 5em;'>
+   <h1>getting started with cybersecurity</h1>
+   <h2 style='font-size: 1.3em;'>published 6/19/22</h2>
+   <br>
+   <p class='proheading'>why cybersecurity?</p>
+   <br>
+   <p class='contentstuff'>imagine the last time you got your account stolen in your favorite game. all that progress, all lost. that's why cybersecurity exists, to combat that and make sure that the internet is safe, for all.</p>
+    <p class='proheading'>cybersecurity terms</p>
+   
+   <br>
+    <p class='contentstuff'>
+        <ul style='list-style-type: disclosure-closed;'>
+          <li style='margin-bottom: 15px;'>
+            <p class='contenturl pointer down'>Firewall</p>
+            <div class='aftercontent' style='display: none;'>
+              <h1 style='margin-left: 15px;'>What is a firewall?</h1>
+              <p>A f</p>
+            </div>
+          </li>
+       
+        </ul>
+      </p>
+  
+   <p class='proheading'>cybersecurity resources</p>
+   <br>
+      <p class='contentstuff'>
+        <ul style='list-style-type: square;'>
+          <li style='margin-bottom: 15px;'>
+            <a class='contenturl' href='https://tryhackme.com/'>TryHackMe - Cybersecurity Courses </a>
+          </li>
+          <li style='margin-bottom: 15px;'>
+            <a  class='contenturl' href='https://overthewire.org/'>OverTheWire - CTFs and cybersecurity training</a>
+          </li>
+            <li style='margin-bottom: 15px;'>
+            <a  class='contenturl' href='https://picoctf.org/'>PicoCTF - CTFs and cybersecurity training</a>
+          </li>
+        </ul>
+      </p>
+   <!--<div class='flex down blogposts'>
+   
+   </div>-->
+ <!--  <img src='pogers.png'>
+   <h1>simplydeveloper#3013</h1>
+   <h2 style="font-size: 1.3em;">professional pro gamer/programmer/cybersecurity expert</h2>
+  -->
+ 
+ </div>
+  <div class="navdiv" style="/* right: auto; */">
+    <ul class="navul">
+       <li style="float: left;padding: 1rem;">
+         <a href='/'>
+           Home
+         </a>
+       </li>
+     <li style="float: left;padding: 1rem;">
+         <a  href='../../projects.html'>
+           Projects
+         </a>
+       </li>
+      <li style="float: left;padding: 1rem;">
+         <a href='../../blog.html'>
+           Blog
+         </a>
+       </li>
+      
+    </ul>
+   </div>
+  <script>
+       var coll = document.getElementsByClassName("down");
+       
+        
+      for (let i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.display === "block") {
+            content.parentNode.style = 'list-style-type: disclosure-closed;'
+            content.style.display = "none";
+          } else {
+                        content.parentNode.style = 'list-style-type: disclosure-open;'
+
+            content.style.display = "block";
+          }
+        });
+      }
+  </script>
+</body>
+
+</html>
+ 
